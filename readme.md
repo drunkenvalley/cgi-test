@@ -28,3 +28,4 @@ Så som noen som tegner, så trenger en noen ganger ta et par trinn tilbake fra 
 Prosjektet oppfyller kravene som ble presentert, men det savner et par ting.
 
 * user.php - det burde være login og mer.
+* styles.css - siden er stort sett ikke gitt noen visuell stil.
