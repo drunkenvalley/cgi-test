@@ -13,3 +13,18 @@ En teknisk test basert på å lese av strømmåler, og hente ut verdiene som er 
 * Avhengig av din SQL konfigurasjon må 'api/db.php' bli oppdatert med rett info.
 
 Etter dette burde det i teorien funke greit å fyre opp sida. 
+
+## Forbedringer
+
+Så som noen som tegner, så trenger en noen ganger ta et par trinn tilbake fra arbeidet og tenke om noe er snodig. Etter at kravene ble oppfylt ser jeg at det er en del ting å gjøre for å forbedre dette.
+
+* Oversikt tilsvarende header-filer. Slikt det er nå er det knotete å navigere.
+* Flere funksjoner bør få navn endret til standardiserte navn.
+* Noen funksjoner har ingen reell funksjon (f.eks meter klassens sin 'get'), og bør sammenslås med den reelle funksjonen.
+* En funksjon burde vært i meter-class.php, i klassen, men ble lagd utenfor.
+
+## Features som bør implementeres
+
+Prosjektet oppfyller kravene som ble presentert, men det savner et par ting.
+
+* user.php - det burde være login og mer.
